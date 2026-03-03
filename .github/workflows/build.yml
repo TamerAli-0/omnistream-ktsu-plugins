@@ -33,7 +33,7 @@ jobs:
       - name: Generate repo.json
         run: |
           python3 - <<'EOF'
-          import json, os, re
+          import json, os
 
           plugins = []
           dist_dir = "dist"
@@ -52,8 +52,9 @@ jobs:
               manifest["downloadUrl"] = f"{base_url}/{omni_file}"
               plugins.append(manifest)
 
+          repo_index = {"name": "OmniStream Ktsu Plugins", "plugins": plugins}
           with open("repo.json", "w") as f:
-              json.dump(plugins, f, indent=2)
+              json.dump(repo_index, f, indent=2)
           print(f"Generated repo.json with {len(plugins)} plugin(s)")
           EOF
 
