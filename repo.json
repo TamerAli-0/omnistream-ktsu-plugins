@@ -2,24 +2,24 @@
   "name": "OmniStream Ktsu Plugins",
   "plugins": [
     {
-      "pluginId": "ktsu_mangadex",
-      "name": "MangaDex",
-      "version": "1.0.0",
-      "type": "ktsu",
-      "lang": "multi",
-      "iconUrl": "https://mangadex.org/favicon.ico",
-      "downloadUrl": "https://github.com/TamerAli-0/omnistream-ktsu-plugins/releases/download/latest/mangadex.omni",
-      "entryClass": "com.omnistream.ktsu.plugins.MangaDexPlugin"
-    },
-    {
       "pluginId": "ktsu_asurascans",
       "name": "AsuraScans",
       "version": "1.0.0",
       "type": "ktsu",
       "lang": "en",
       "iconUrl": "https://asuracomic.net/favicon.ico",
-      "downloadUrl": "https://github.com/TamerAli-0/omnistream-ktsu-plugins/releases/download/latest/asurascans.omni",
-      "entryClass": "com.omnistream.ktsu.plugins.AsuraScansPlugin"
+      "entryClass": "com.omnistream.ktsu.plugins.AsuraScansPlugin",
+      "downloadUrl": "https://github.com/TamerAli-0/omnistream-ktsu-plugins/releases/download/latest/asurascans.omni"
+    },
+    {
+      "pluginId": "ktsu_mangadex",
+      "name": "MangaDex",
+      "version": "1.0.0",
+      "type": "ktsu",
+      "lang": "multi",
+      "iconUrl": "https://mangadex.org/favicon.ico",
+      "entryClass": "com.omnistream.ktsu.plugins.MangaDexPlugin",
+      "downloadUrl": "https://github.com/TamerAli-0/omnistream-ktsu-plugins/releases/download/latest/mangadex.omni"
     },
     {
       "pluginId": "ktsu_mangaplus",
@@ -28,8 +28,8 @@
       "type": "ktsu",
       "lang": "en",
       "iconUrl": "https://mangaplus.shueisha.co.jp/favicon.ico",
-      "downloadUrl": "https://github.com/TamerAli-0/omnistream-ktsu-plugins/releases/download/latest/mangaplus.omni",
-      "entryClass": "com.omnistream.ktsu.plugins.MangaPlusPlugin"
+      "entryClass": "com.omnistream.ktsu.plugins.MangaPlusPlugin",
+      "downloadUrl": "https://github.com/TamerAli-0/omnistream-ktsu-plugins/releases/download/latest/mangaplus.omni"
     },
     {
       "pluginId": "ktsu_mangasee",
@@ -38,8 +38,8 @@
       "type": "ktsu",
       "lang": "en",
       "iconUrl": "https://mangasee123.com/favicon.ico",
-      "downloadUrl": "https://github.com/TamerAli-0/omnistream-ktsu-plugins/releases/download/latest/mangasee.omni",
-      "entryClass": "com.omnistream.ktsu.plugins.MangaSeePlugin"
+      "entryClass": "com.omnistream.ktsu.plugins.MangaSeePlugin",
+      "downloadUrl": "https://github.com/TamerAli-0/omnistream-ktsu-plugins/releases/download/latest/mangasee.omni"
     }
   ]
 }
