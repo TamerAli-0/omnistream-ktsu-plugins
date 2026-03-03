@@ -1,0 +1,9 @@
+{
+  "pluginId": "ktsu_mangasee",
+  "name": "MangaSee",
+  "version": "1.0.0",
+  "type": "ktsu",
+  "lang": "en",
+  "iconUrl": "https://mangasee123.com/favicon.ico",
+  "entryClass": "com.omnistream.ktsu.plugins.MangaSeePlugin"
+}

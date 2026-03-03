@@ -1,0 +1,9 @@
+{
+  "pluginId": "ktsu_asurascans",
+  "name": "AsuraScans",
+  "version": "1.0.0",
+  "type": "ktsu",
+  "lang": "en",
+  "iconUrl": "https://asuracomic.net/favicon.ico",
+  "entryClass": "com.omnistream.ktsu.plugins.AsuraScansPlugin"
+}

@@ -1,0 +1,9 @@
+{
+  "pluginId": "ktsu_mangadex",
+  "name": "MangaDex",
+  "version": "1.0.0",
+  "type": "ktsu",
+  "lang": "multi",
+  "iconUrl": "https://mangadex.org/favicon.ico",
+  "entryClass": "com.omnistream.ktsu.plugins.MangaDexPlugin"
+}
